@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Kerala Tourism</title>
+</head>
+<body>
+    <main>
+        <!---------------Header----------------->
+        <header>
+            <!---------------Division for Logo Image----------------->
+            <div>
+                <!---------------Logo Image----------------->
+                <img src="https://logos-download.com/wp-content/uploads/2021/01/Kerala_Tourism_Logo.png" alt="kerala tourism logo" width="150px" height="100px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#district">Districts</a></li>
+                    <li><button>login</button></li>
+                    <li><button>Sign Up</button></li>
+                </ul>
+            </nav>
+        </header>
+        <!-------------Hero Section-------------->
+        <section>
+            <h1>COME AND ENJOY OUR CULTURE</h1>
+            <a href="#">Learn more..</a>
+            <a href="#">Contact Us</a>
+        </section>
+    </main>
+    <hr>
+    <!-----------------Section for Destinations-------------------->
+    <section>
+        <h2>Top Destinations</h2>
+        <!---------Back Water---------->
+        <article>
+            <img src="./images/Backwater.jpg" alt="Back Water image" width="500px" height="250px">
+            <p>Backwaters in Kerala</p>
+        </article>
+        <article>
+            <img src="./images/wildlife.jpg" alt="Image of Deers" width="500px" height="250px">
+            <p>Wildlife Sacturies in Kerala</p>
+        </article>
+        <article>
+            <img src="./images/waterfall.jpg" alt="Athirappilly waterfall image" width="500px" height="250px">
+            <p>Waterfalls in Kerala</p>
+        </article>
+        <article>
+            <img src="./images/hills.jpg" alt="Image of Munnar" width="500px" height="250px">
+            <p>Hill Stations in Kerala</p>
+        </article>
+    </section>
+    <hr>
+    <!----------Section for About------------->
+    <section id="about">
+        <h2>About Us</h2>
+        <!--------Kerala Map-------->
+        <img src="./images/kerala.png" alt="kerala map" width="400px">
+        <blockquote>
+            Kerala, often referred to as <b>“God’s Own Country,”</b>  is a premier tourist destination in India, celebrated for its breathtaking natural beauty and rich cultural heritage. The state offers a diverse range of attractions, from the serene backwaters of Alappuzha and Kumarakom, where visitors can enjoy tranquil houseboat cruises, to the lush green hills of Munnar and Wayanad, known for their tea plantations and cool climate. Kerala’s coastline along the Arabian Sea features pristine beaches like Kovalam and Varkala, perfect for relaxation and water activities. The state’s vibrant culture is showcased through classical dance forms such as Kathakali and Mohiniyattam, and festivals like Onam and Thrissur Pooram. Additionally, Kerala is renowned for its Ayurvedic wellness treatments, attracting visitors seeking rejuvenation and health. Eco-tourism is also a significant aspect, with wildlife sanctuaries like Periyar offering opportunities for trekking and wildlife safaris. The unique blend of natural beauty, cultural richness, and warm hospitality makes Kerala a must-visit destination for travelers.
+        </blockquote>
+    </section>
+    <hr>
+    <!--------------Districts-------------->
+    <section id="district">
+        <h2>Districts</h2>
+        <ol>
+            <li><a href="#">Alappuzha</a></li>
+            <li><a href="#">Ernakulam</a></li>
+            <li><a href="#">Idukki</a></li>
+            <li><a href="#">Kannur</a></li>
+            <li><a href="#">Kasaragod</a></li>
+            <li><a href="#">Kollam</a></li>
+            <li><a href="#">Kottayam</a></li>
+            <li><a href="#">Kozhikode</a></li>
+            <li><a href="#">Malappuram</a></li>
+            <li><a href="#">Palakkad</a></li>
+            <li><a href="#">Pathanamthitta</a></li>
+            <li><a href="#">Thiruvananthapuram</a></li>
+            <li><a href="#">Thrissur</a></li>
+            <li><a href="#">Wayanad</a></li>
+        </ol>
+    </section>
+    <!------------Contact us-------------->
+    <fieldset>
+        <legend>Contact Us:</legend>
+        <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="anyone@mail.com"
+        pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"><br><br>
+        <label for="number">Phone:</label>
+        <input type="tel" id="number" name="number" pattern="[0-9]{10}" maxlength="10" required placeholder="9876543210"><br><br>
+        <select id="districts" name="districts">
+            <option value="alappuzha">Alappuzha</option>
+            <option value="ernakulam">Ernakulam</option>
+            <option value="idukki">Idukki</option>
+            <option value="kannur">Kannur</option>
+            <option value="kasaragod">Kasaragod</option>
+            <option value="kollam">Kollam</option>
+            <option value="kottayam">Kottayam</option>
+            <option value="kozhikode">Kozhikode</option>
+            <option value="malappuram">Malappuram</option>
+            <option value="palakkad">Palakkad</option>
+            <option value="pathanamthitta">Pathanamthitta</option>
+            <option value="thiruvananthapuram">Thiruvananthapuram</option>
+            <option value="thrissur">Thrissur</option>
+            <option value="wayanad">Wayanad</option>
+          </select>
+          <button type="submit">Submit</button>
+        </form>
+    </fieldset>
+
+    <footer>
+        <p>&#169;copyright 2024</p>
+    </footer>
+</body>
+</html>
