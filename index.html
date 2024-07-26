@@ -111,7 +111,9 @@
         pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"><br><br>
         <label for="number">Phone:</label>
         <input type="tel" id="number" name="number" pattern="[0-9]{10}" maxlength="10" title="Accepts only 10 digit mobile number" required placeholder="9876543210"><br><br>
-        <select id="districts" name="districts">
+        <label for="districts">Select District:</label>
+        <select id="districts" name="districts" required>
+            <option value="">None</option>
             <option value="alappuzha">Alappuzha</option>
             <option value="ernakulam">Ernakulam</option>
             <option value="idukki">Idukki</option>
